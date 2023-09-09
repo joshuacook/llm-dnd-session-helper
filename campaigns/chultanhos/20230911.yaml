@@ -1,0 +1,28 @@
+adventure: In the minotaur-populated town of Bodat, governed by the enigmatic Marquis,
+  the adventurers must avoid capture by the Minotaur police force while they search
+  for their kidnapped brother, Bero, who may or may not be the reincarnatio of the 
+  fallen god, Oberon.
+locations:
+  Bodat: a city in the middle of the desert, run by Minotaurs, ruled by the Marquis
+  Hanta's compound: a compound run by Hanta, a human who runs the human slave trade
+    in Bodat, may have Haemon and Oggvay's brother, Bero
+  the Kobold District: a district of Bodat where kobolds are not completely oppressed
+  the hotel: human-friendly, players have a room here, run by weak old minotaur, secret
+    passage to the whispering basin
+  the whispering basin: a human-friendly tavern, some kobolds
+npcs:
+  Hanta: human, runs the human slave trade in Bodat, has Bero
+player_objectives:
+- break into Hanta's compound, find Bero, if he is there
+- avoid capture
+- learn to fly
+scenes:
+  sneaking into Hanta's part 2: succesfully snuck into Hanta's compound, found a note
+    that said 'camp destroyed; child recovered'; here camp most likely refers to
+    Oggvay and Haemon's home
+  the cats: "Hung out with some cats. They know the tunnels a little bit. The man\
+    \ in the palace is the \u201CPrince of all Cats\u201D, smells like a cat but darker;\
+    \ the minotaurs listen to him. "
+  the dining room: 'Accidentally set off a Shujusreckus jukebox which made a ton of
+    noise in the dining room. We ran through the compound to near the slave pens,
+    and accidentally ran into a minotaur. '

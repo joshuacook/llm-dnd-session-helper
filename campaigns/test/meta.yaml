@@ -1,0 +1,30 @@
+adventure: In the minotaur-populated town of Bodat, governed by the enigmatic Marquis,
+  the adventurers must avoid capture by the Minotaur police force while they search
+  for their kidnapped brother, Bero, unaware he's a reincarnated fallen god.
+campaign: In the desolate Fey Wastes, a stark contrast to the Fey Wild, desert tribe
+  members embark on a quest to rescue a kidnapped brother. Joined by amnesiac guards
+  from the ruined Seelie Court, they venture deeper into the mysteries of this barren
+  land, aiming to both unveil its hidden truths and restore the once-vibrant Fey Wild.
+party: chulthanhos
+players:
+- class: Druid
+  description: A bedouin from the deserts of the Fey Wastes who is intent on helping
+    his brother that may actually be the reincarnation of Oberon
+  name: Haemon
+- class: Barbarian
+  description: A bedouin from the deserts of the Fey Wastes who is intent on helping
+    his brother that may actually be the reincarnation of Oberon
+  name: Oggvay
+- class: Wizard
+  description: an Eladrin guard from the destroyed Seelie Court who is only beginning
+    to remember his former mandate
+  name: Spat
+- class: Monk
+  description: an Eladrin guard from the destroyed Seelie Court who is only beginning
+    to remember his former mandate
+  name: Dev
+dm_objectives:
+  - help the players discover the truth about what happened to the Fey Wild (they do not yet know)
+  - help the players discover the truth about what happened to the Seelie Court (they do not yet know)
+  - help the players find their brother, Bero, who is currently hidden in a secret area of Hanta's compound
+  - help the players prevent the Marquis from discovering the truth about Bero

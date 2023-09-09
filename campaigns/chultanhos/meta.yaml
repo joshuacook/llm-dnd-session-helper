@@ -23,3 +23,8 @@ players:
   description: an Eladrin guard from the destroyed Seelie Court who is only beginning
     to remember his former mandate
   name: Dev
+dm_objectives:
+  - help the players discover the truth about what happened to the Fey Wild (they do not yet know)
+  - help the players discover the truth about what happened to the Seelie Court (they do not yet know)
+  - help the players find their brother, Bero, who is currently hidden in a secret area of Hanta's compound
+  - help the players prevent the Marquis from discovering the truth about Bero

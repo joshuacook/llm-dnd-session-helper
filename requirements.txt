@@ -1,0 +1,11 @@
+black
+ipdb
+jinja2
+mypy
+openai
+pystache
+pytest
+pytest-cov
+pyyaml
+ruff
+types-PyYAML

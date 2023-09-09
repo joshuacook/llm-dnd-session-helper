@@ -1,16 +1,17 @@
-Topic: Recap Design for D&D Session
+recap_prompt = """Topic: Recap Design for D&D Session
 
 
 Here is the current campaign: {{campaign}}
 Here is the current adventure: {{adventure}}
-Here is the party: {{party}}
+Here is the party: {{players}}
 
 Let's begin. I need a ten-minute recap of our last session. 
 
-Here are the player objectives from the previous session: {{player_objectives}}
+Here are the player objectives from the previous session: {{objectives}}
 Here are the scenes from the previous session: {{scenes}}
 Here are the locations from the previous session: {{locations}}
 Here are the NPCs from the previous session: {{npcs}}
 
-Would you create a three-paragraph summary of the previous session including campaign, adventure,
-player objectives, scenes, locations, and NPCs?
+Would you create a three-paragraph summary of the previous session including campaign,
+adventure, player objectives, scenes, locations, and NPCs?
+"""
