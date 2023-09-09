@@ -1,0 +1,21 @@
+campaign: In the desolate Fey Wastes, a stark contrast to the Fey Wild, desert tribe members embark on a quest to rescue a kidnapped brother. Joined by amnesiac guards from the ruined Seelie Court, they venture deeper into the mysteries of this barren land, aiming to both unveil its hidden truths and restore the once-vibrant Fey Wild.
+
+adventure: In an unstable, alternate reality version of the Fey Wild, the adventurers seek the statues of the huntress and the mage, which hold the key to harnessing the scattered power of the Seelie Court.
+
+party: perdidos
+    players:
+      - Zyl:
+          class: Cleric/Warlock
+          description: an Elf thousands of years old who has nearly forgotten his mission to wait for the return of Oberon, to protect him as he rises once more
+      - Vladimir:
+          class: Bard
+          description: an Eladrin guard from the destroyed Seelie Court who is only beginning to remember his former mandate
+      - Estragon:
+          class: Paladin
+          description: an Eladrin guard from the destroyed Seelie Court who is only beginning to remember his former mandate
+      - Dido:
+          class: Ranger
+          description: A bedouin from the deserts of the Fey Wastes who is intent on helping his brother that may actually be the reincarnation of Oberon
+      - Pyramus:
+          class: Figher
+          description: A bedouin from the deserts of the Fey Wastes who is intent on helping his brother that may actually be the reincarnation of Oberon
