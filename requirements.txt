@@ -1,11 +1,16 @@
+
+alembic
 black
 ipdb
 jinja2
 mypy
 openai
+pandas-stubs
 pystache
 pytest
 pytest-cov
 pyyaml
 ruff
+sqlmodel
+streamlit
 types-PyYAML

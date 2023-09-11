@@ -1,0 +1,61 @@
+Topic: Scene Progression for D&D Session
+
+I need possible scenes for each outcome that will play out in the next five
+minutes AFTER this MOMENT. In other words, the players will engage in the MOMENT
+and one of the POSSIBLE OUTCOMES will occur. I need a possible NEXT scene for
+each outcome. Do not descript the outcome of the moment. Tell me what might 
+happen to players AFTER the moment.
+
+Here is the current recap. This is what has happened in the last ten hours of gameplay: 
+
+|--- RECAP DESCRIPTION ---|
+{{recap}}
+|--- END RECAP DESCRIPTION---|
+
+Here is the current context. This is what happened in the last twenty minutes: 
+
+|--- CONTEXT DESCRIPTION ---|
+{{context}}
+|--- END CONTEXT DESCRIPTION ---|
+
+Here is the current moment. This is what is happening RIGHT NOW: 
+
+|--- MOMENT DESCRIPTION ---|
+title: {{title}}
+type: {{type}}
+moment: {{moment}}
+location: {{location}}
+|--- END MOMENT DESCRIPTION ---|
+
+Here is the current location. This is where they are RIGHT NOW:
+
+|--- LOCATION DESCRIPTION ---|
+{{location}}
+|--- END LOCATION DESCRIPTION ---|
+
+Here are the possible_outcomes: 
+
+|--- POSSIBLE OUTCOMES DESCRIPTION ---|
+{{possible_outcomes}}
+|--- END POSSIBLE OUTCOMES DESCRIPTION ---|
+
+A scene can be an interaction, an obstacle, or an encounter. Please provide 
+one of each for each outcome. 
+
+Return the results in the following format:
+[
+    {   
+        "previous_outcome": <OUTCOME>,
+        "type": <TYPE>,
+        "title": <TITLE>,
+        "moment": <DESCRIPTION,
+        "location": <LOCATION>,
+    },
+    ...
+]
+
+Use the short name provided for each outcome.
+
+Please do not reuse any of these scenes: {{scenes}}
+
+DISPLAY ONLY THE LIST OF DICTIONARIES

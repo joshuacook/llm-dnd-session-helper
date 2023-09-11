@@ -1,6 +1,6 @@
 from lldm.prompter import Prompter
 
-test_prompt = """\nReturn the following and nothing more:\n\n'Success'"""
+test_prompt = """Return the following and nothing more:\n\n'Success'"""
 
 
 def test_prompter_init():
@@ -11,7 +11,6 @@ def test_prompter_init():
     assert prompter.data == data
     assert prompter.kind == kind
     assert prompter.model == "gpt-3.5-turbo-16k"
-
     assert prompter.prompt == test_prompt
 
 
@@ -22,7 +21,7 @@ def test_prompter_gpt_4_init():
 
     assert prompter.data == data
     assert prompter.kind == kind
-    assert prompter.model == "gpt-4-32k"
+    assert prompter.model == "gpt-4"
 
 
 def test_prompter_chat():

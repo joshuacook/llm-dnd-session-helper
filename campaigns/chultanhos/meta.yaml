@@ -1,30 +1,31 @@
-adventure: In the minotaur-populated town of Bodat, governed by the enigmatic Marquis,
-  the adventurers must avoid capture by the Minotaur police force while they search
-  for their kidnapped brother, Bero, unaware he's a reincarnated fallen god.
-campaign: In the desolate Fey Wastes, a stark contrast to the Fey Wild, desert tribe
-  members embark on a quest to rescue a kidnapped brother. Joined by amnesiac guards
-  from the ruined Seelie Court, they venture deeper into the mysteries of this barren
-  land, aiming to both unveil its hidden truths and restore the once-vibrant Fey Wild.
+campaign: In the desolate Fey Wastes, desert tribe members embark on a quest to rescue
+  a kidnapped brother after the destruction of their camp and annihilation of their
+  people by a gang of Minotaurs. Joined by two amnesiac Eladrin who recently wandered
+  out of the desert, the party ventures deeper into the mysteries of this barren land.
+dm_objectives:
+- HIDDEN LONG TERM discover the truth about what happened to the Fey Wild
+- HIDDEN LONG TERM discover the truth about what happened to the Seelie Court
+- SHORT TERM find their brother, Bero, who is currently held captive in a secret area
+  of Hanta's compound
+- SHORT TERM prevent the Marquis from discovering the truth about Bero
 party: chulthanhos
 players:
 - class: Druid
   description: A bedouin from the deserts of the Fey Wastes who is intent on helping
-    his brother that may actually be the reincarnation of Oberon
+    his brother that may actually be the reincarnation of Oberon; Has traveled over
+    much of the Fey Wastes; Spore Druid
   name: Haemon
+  secrets: None
 - class: Barbarian
   description: A bedouin from the deserts of the Fey Wastes who is intent on helping
     his brother that may actually be the reincarnation of Oberon
   name: Oggvay
+  secrets: None
 - class: Wizard
-  description: an Eladrin guard from the destroyed Seelie Court who is only beginning
-    to remember his former mandate
+  description: an amnesiac Eladrin
   name: Spat
+  secrets: guard from the destroyed Seelie Court
 - class: Monk
-  description: an Eladrin guard from the destroyed Seelie Court who is only beginning
-    to remember his former mandate
+  description: an amnesiac Eladrin
   name: Dev
-dm_objectives:
-  - help the players discover the truth about what happened to the Fey Wild (they do not yet know)
-  - help the players discover the truth about what happened to the Seelie Court (they do not yet know)
-  - help the players find their brother, Bero, who is currently hidden in a secret area of Hanta's compound
-  - help the players prevent the Marquis from discovering the truth about Bero
+  secrets: guard from the destroyed Seelie Court

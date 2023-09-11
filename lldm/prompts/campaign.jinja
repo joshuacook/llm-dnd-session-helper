@@ -1,0 +1,18 @@
+|-- THIS IS THE BEGINNING OF CAMPAIGN DATA --|
+
+CAMPAIGN
+{{campaign}}
+
+DM OBJECTIVES
+{% for objective in dm_objectives %}
+- Help the players {{ objective }}
+{% endfor %}
+
+PLAYERS
+{% for player in players %}
+- {{ player["name"] }} ({{ player["class"] }})
+  {{ player["description"] }}
+  SECRET: {{ player["secrets"] }}
+{% endfor %}
+
+|-- THIS IS THE END OF CAMPAIGN DATA --|

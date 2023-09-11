@@ -1,0 +1,29 @@
+|-- THIS IS THE BEGINNING OF SESSION DATA --|
+
+ADVENTURE
+{{adventure}}
+
+PLAYER OBJECTIVES
+{% for objective in player_objectives %}
+- {{ objective }}
+{% endfor %}
+
+SCENES
+{% for scene in scenes %}
+- {{ scene["name"] }}
+  {{ scene["description"] }}
+{% endfor %}
+
+LOCATIONS
+{% for location in locations %}
+- {{ location["name"] }}
+  {{ location["description"] }}
+{% endfor %}
+
+NPCS
+{% for npc in npcs %}
+- {{ npc["name"] }}
+  {{ npc["description"] }}
+{% endfor %}
+
+|-- THIS IS THE END OF SESSION DATA --|
