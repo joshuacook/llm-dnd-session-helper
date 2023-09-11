@@ -7,6 +7,22 @@ class Campaign(SQLModel, table=True):
     description: Optional[str] = None
     party: str
 
+class Character(SQLModel, table=True):
+    id: Optional[int] = Field(default=None, primary_key=True)
+    name: str
+    description: str
+    campaign_id: int
+    character_class: str
+    secrets: str
+
+class Objective(SQLModel, table=True):
+    id: Optional[int] = Field(default=None, primary_key=True)
+    name: str
+    description: str
+    campaign_id: int
+    hidden: bool
+    term: str
+
 if __name__ == "__main__":
     from sqlmodel import Session, create_engine, select
     engine = create_engine("sqlite:///lldm.db")
